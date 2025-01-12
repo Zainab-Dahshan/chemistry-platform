@@ -1,0 +1,30 @@
+{
+  "name": "chemistry-platform",
+  "version": "1.0.0",
+  "description": "Author: zainabeldahshan@gmail.com",
+  "homepage": "https://github.com/Zainab-Dahshan/chemistry-platform#readme",
+  "bugs": {
+    "url": "https://github.com/Zainab-Dahshan/chemistry-platform/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zainab-Dahshan/chemistry-platform.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chemistry-platform": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.4"
+  }
+}
