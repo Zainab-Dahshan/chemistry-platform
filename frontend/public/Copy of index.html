@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chemistry Platform" />
+    <title>Chemistry Platform</title>
+    <!-- Theme color for supported browsers -->
+    <script>
+      const isFirefox = navigator.userAgent.includes('Firefox');
+      const isOpera = navigator.userAgent.includes('OPR');
+
+      if (!isFirefox && !isOpera) {
+        const metaThemeColor = document.createElement('meta');
+        metaThemeColor.name = 'theme-color';
+        metaThemeColor.content = '#000000';
+        document.head.appendChild(metaThemeColor);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

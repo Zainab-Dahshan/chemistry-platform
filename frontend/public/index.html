@@ -25,6 +25,17 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script>
+      const isFirefox = navigator.userAgent.includes('Firefox');
+      const isOpera = navigator.userAgent.includes('OPR');
+
+      if (!isFirefox && !isOpera) {
+        const metaThemeColor = document.createElement('meta');
+        metaThemeColor.name = 'theme-color';
+        metaThemeColor.content = '#000000';
+        document.head.appendChild(metaThemeColor);
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
